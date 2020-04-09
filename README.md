@@ -28,7 +28,7 @@
 
 - Vue
 
-  - Vuex
+  - [如何在 Vue中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
 
 * Git
 

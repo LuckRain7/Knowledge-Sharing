@@ -25,6 +25,8 @@
     - [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
 	
 	- [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
+	
+	- [如何在 Array.forEach 中正确使用 Async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
 
 - Vue
 

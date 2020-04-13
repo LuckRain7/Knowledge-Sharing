@@ -27,6 +27,8 @@
 	- [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
 	
 	- [如何在 Array.forEach 中正确使用 Async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
+	
+	- [如何在 Array.filter 中正确使用 Async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
 
 - Vue
 
@@ -51,3 +53,7 @@
 
 - [vue-image-cropper-simple -A simple and effective vue component for image crop. （基于 vue 的图片剪裁组件）](https://github.com/LuckRain7/vue-image-cropper-simple)
 
+
+#### 文章同步....
+
+掘金、SegmentFault 思否、CSDN、简书、微信公众号

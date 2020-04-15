@@ -16,13 +16,13 @@
 
   - [【提高效率】前端组件库工具集合](http://rain7.top/farme/index.html)
 
-- 面试
 
-  - JavaScript
 
-    - [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
+- JavaScript
 
-    - [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
+  - [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
+
+  - [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
 
 	- [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
 

@@ -23,13 +23,14 @@
 
   - [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
 
-	- [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
+  - [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
 
-	- [如何在 Array.forEach 中正确使用 Async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
+  - [如何在 Array.forEach 中正确使用 Async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
 
-	- [如何在 Array.filter 中正确使用 Async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
+  - [如何在 Array.filter 中正确使用 Async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
 
   - [在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
+
 
 - Vue
 

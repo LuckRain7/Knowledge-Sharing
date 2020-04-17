@@ -1,6 +1,6 @@
 # 在 Array.reduce 中正确使用 async
 
-![header](./header.png)
+![header](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0415/header.png)
 
 > 如何使用带有reduce的Promise以及如何在串行和并行处理之间进行选择 
 >
@@ -35,7 +35,7 @@ console.log(syncRes);
 
  
 
-![The-reduce-function-image](./The-reduce-function-image.png)
+![The-reduce-function-image](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0415/The-reduce-function-image.png)
 
 ## 2.  异步 `reduce`
 
@@ -64,7 +64,7 @@ console.log(asyncRes);
 
  
 
-![Async-reduce-function-image](./Async-reduce-function-image.png)
+![Async-reduce-function-image](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0415/Async-reduce-function-image.png)
 
 
 
@@ -94,7 +94,7 @@ console.log(`Took ${new Date().getTime() - startTime} ms`);
 // Took 11-13 ms
 ```
 
-![Async-reduce-with-await-memo-last-image](./Async-reduce-with-await-memo-last-image.png)
+![Async-reduce-with-await-memo-last-image](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0415/Async-reduce-with-await-memo-last-image.png)
 
 
 ### 3.2  await memo first
@@ -116,7 +116,7 @@ console.log(`Took ${new Date().getTime() - startTime} ms`);
 // Took 36-38 ms
 ```
 
-![Async-reduce-with-await-memo-first](./Async-reduce-with-await-memo-first.png)
+![Async-reduce-with-await-memo-first](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0415/Async-reduce-with-await-memo-first.png)
 
 
 这种行为通常不是问题，这意味着不依赖于先前结果的所有内容都将立即被计算出来，只有依赖部分正在等待先前的值。

@@ -201,7 +201,7 @@ git reset --hard [commitId]  # 进行回溯
 
 下图是 commitId 形式
 
-![commitId](./commitId.png)
+![commitId](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/commitId.png)
 
 ### 2.7  同时配置gitee&github(多平台)ssh
 
@@ -219,19 +219,19 @@ ssg-keygen -t rsa -C "xxxx@email.com" -f "coding_id_rsa"  # 后续绑定coding�
 
 会在本地生成如下文件
 
-![ssh](./ssh.png)
+![ssh](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/ssh.png)
 
 #### 2.7.2.  在各个平台进行ssh绑定
 
 ##### 2.7.2.1  github平台操作
 
-![github](./github.png)
+![github](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/github.png)
 
-![githubaddssh](./githubaddssh.png)
+![githubaddssh](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/githubaddssh.png)
 
 ##### 2.7.2.2  gitee 平台操作
 
-![gitee](./gitee.png)
+![gitee](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/gitee.png)
 
 #### 2.7.3.  解决ssh冲突配置
 
@@ -261,7 +261,7 @@ IdentityFile C:\Users\ZHCZ\.ssh\coding_id_rsa
 
 
 
-![config](./config.png)
+![config](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/config.png)
 
 #### 2.7.4. 测试
 
@@ -284,5 +284,5 @@ ssh -T git@github.com
 
 - [如何在 Vue中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
 
-![wx](./wx.png)
+![wx](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0417/wx.png)
 

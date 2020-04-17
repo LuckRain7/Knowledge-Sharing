@@ -17,7 +17,6 @@
   - [【提高效率】前端组件库工具集合](http://rain7.top/farme/index.html)
 
 
-
 - JavaScript
 
   - [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
@@ -38,9 +37,7 @@
 
 - Git
 
-  - [Git 原理介绍](/tools/Git.html#git-原理)
-
-  - [Git 基础操作-常用命令](/tools/Git.html#git-常用命令)
+  - [Git 常用命令及应用这一篇就够了（新手向）](https://mp.weixin.qq.com/s/4gWe9dm5nSt9MGFKhZBv2g)
 
 - [npm & yarn 包管理工具](http://rain7.top/tools/package)
 

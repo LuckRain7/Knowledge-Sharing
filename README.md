@@ -25,16 +25,18 @@
 
   - [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
 
-  - [如何在 Array.forEach 中正确使用 Async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
+  - [一道关于JavaScript 代码执行顺序的面试题解析](https://mp.weixin.qq.com/s/fJO-7OnSE82t6Gqqt8n0Fg)
 
-  - [如何在 Array.filter 中正确使用 Async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
+  - [如何在 Array.forEach 中正确使用 async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
 
-  - [在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
+  - [如何在 Array.filter  中正确使用 async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
+
+  - [如何在 Array.reduce  中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
 
 
 - Vue
 
-  - [如何在 Vue中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
+  - [如何在 Vue 中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
 
 - Git
 
@@ -56,4 +58,4 @@
 
 #### 文章同步....
 
-掘金、SegmentFault 思否、CSDN、简书、微信公众号、博客园
+[个人主页](https://luck.rain7.top) | [掘金](https://juejin.im/user/5c749a736fb9a049a97a5a8e) | [SegmentFault 思否](https://segmentfault.com/u/rain7) | [CSDN](https://blog.csdn.net/True_Rain) | [简书](https://www.jianshu.com/u/b456d77c42db) | [微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect) | [博客园](https://www.cnblogs.com/luckrain7/)

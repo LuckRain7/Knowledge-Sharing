@@ -53,7 +53,7 @@
   - [nuxt.js 究极按需引入-ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
 
-#### 作者的开源项目
+#### Plaything
 
 - [vue-image-cropper-simple -A simple and effective vue component for image crop. （基于 vue 的图片剪裁组件）](https://github.com/LuckRain7/vue-image-cropper-simple)
 

@@ -55,17 +55,11 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 
 <kbd>Q</kbd> |  <kbd>W</kbd>  | <kbd>E</kbd> |  <kbd>R</kbd> 
 
-![](./kbd.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/kbd.png)
 
-### 3.2  十六进制代码可视化
 
-十六进制代码可视化：`#C6E48B` `#7AC96F` `#249A3C` `#196127`
 
-```
-十六进制代码可视化: `#C6E48B` `#7AC96F` `#249A3C` `#196127`
-```
-
-### 3.3 差异可视化
+### 3.2 差异可视化
 
  可以使用反引号可视化差异，并`diff`根据需要突出显示红色或绿色的线。 
 
@@ -83,7 +77,7 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 + box.onclick = fn.call(obj, 200);
 ```
 
-###  3.4 折叠效果
+###  3.3 折叠效果
 
 添加冗长的错误日志或冗长程序输出的问题可以解决的错误有帮助的，但如果它占用页的垂直空间，可以考虑使用`  <details>  `和` <summary> `标签。 
 
@@ -137,7 +131,7 @@ Having some problems firing up the laser.
 
 
 
-### 3.5  使文字和图像居中
+### 3.4  使文字和图像居中
 
 在 MarkDown 中直接是使用居中DIV
 
@@ -155,7 +149,9 @@ Having some problems firing up the laser.
 <p>This is RainCode</p>
 </div>
 
-### 3.6 较小的文字
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/img-center.png)
+
+### 3.5 较小的文字
 
  在`<sup>`或`<sub>`标记中换行以使其变小。非常适合在图像下添加“图1：描述”之类的内容，或者使表中的文本变小以使其不会水平滚动。 
 
@@ -172,5 +168,31 @@ Having some problems firing up the laser.
 <img src="https://rain7.top/luckrain7.png" width="350"><br>
 <sup><strong>Fig 1:</strong> luckrain7's logo</sup>
 </div>
+
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/little-word.png)
+
+## 4.徽标制作
+
+下面教程是简单的常规用法
+
+1.首先登陆网站： [https://shields.io/]( https://shields.io/ )
+
+2.向下滑动，找到 `Static` 功能标题，如图进行制作
+
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/shieldsio.png)
+
+3.页面会跳转到制作好的徽标页面，右击点击徽标(SVG格式)保存到本地
+
+4.使用
+
+```
+将图片上传到自己的图床中或仅本地使用
+使用图片嵌套格式使用
+[![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/RainCode.svg)](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+```
+
+[![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/RainCode.svg)](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+
+
 
 

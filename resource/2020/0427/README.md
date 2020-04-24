@@ -133,7 +133,7 @@ Having some problems firing up the laser.
 501 touch /opt/LLL/run/ok
 502 LLLSDLaserControl -ok1
 </pre>
-</pre<details>
+</details>
 
 
 

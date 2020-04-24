@@ -108,6 +108,8 @@ Having some problems firing up the laser.
 500 ps -a -x -u
 501 touch /opt/LLL/run/ok
 502 LLLSDLaserControl -ok1
+</pre>
+</pre<details>
 ```
 
 效果如下：
@@ -130,6 +132,8 @@ Having some problems firing up the laser.
 500 ps -a -x -u
 501 touch /opt/LLL/run/ok
 502 LLLSDLaserControl -ok1
+</pre>
+</pre<details>
 
 
 

@@ -88,6 +88,6 @@
 欢迎扫码关注我的公众号（您的关注是莫大的鼓励 💗💗💗💗💗）
 
 <div style="height:200px;">
-<img src="https://luckrain7.github.io/Knowledge-Sharing/resource/images/wx.png" style="height:200px;float:left;"/>
+<img src="https://luckrain7.github.io/Knowledge-Sharing/resource/images/wx.png" height=200/>
 </div>
 

@@ -1,10 +1,20 @@
-这里是作为前端学习者的知识分享！
+## luckrain7 的知识分享
 
-希望大家在这里有所收获 （别忘记 **Star** 哟）🌟🌟🌟🌟🌟。
+#### 食用指南：
 
-我会努力更新的！！！
+这里会放我的文章列表，也可以去我的 [个人主页]( https://luck.rain7.top/ ) 查看
 
-# 目录
+资源类我会放在这里 👉 [资源博客 MyBlog]( https://github.com/LuckRain7/MyBlog )
+
+日常 DEMO 会放在这里 👉 [growth-record](https://github.com/LuckRain7/growth-record) 
+
+希望大家在这里有所收获 （别忘记 **Star** 哟）⭐⭐⭐⭐⭐
+
+#### 关于我
+
+我叫震雨，你也可以叫我LuckRain7，我是一个前端学习者，目前身份是学生。
+
+## 目录
 
 - [前端知识图谱](http://rain7.top/engineering/engineering.html)
 
@@ -35,6 +45,8 @@
 
   - [如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
 
+  - [如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+
 
 - Vue
 
@@ -53,11 +65,24 @@
   - [nuxt.js 究极按需引入-ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
 
-#### Plaything
+
+
+
+#### Plaything（玩具）
 
 - [vue-image-cropper-simple -A simple and effective vue component for image crop. （基于 vue 的图片剪裁组件）](https://github.com/LuckRain7/vue-image-cropper-simple)
 
 
-#### 文章同步....
 
-[个人主页](https://luck.rain7.top) | [掘金](https://juejin.im/user/5c749a736fb9a049a97a5a8e) | [SegmentFault 思否](https://segmentfault.com/u/rain7) | [CSDN](https://blog.csdn.net/True_Rain) | [简书](https://www.jianshu.com/u/b456d77c42db) | [微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect) | [博客园](https://www.cnblogs.com/luckrain7/)
+
+#### 您也可以在以下网站关注我： 
+
+ [掘金](https://juejin.im/user/5c749a736fb9a049a97a5a8e) | [SegmentFault 思否](https://segmentfault.com/u/rain7) | [CSDN](https://blog.csdn.net/True_Rain) | [简书](https://www.jianshu.com/u/b456d77c42db) | [微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect) | [博客园](https://www.cnblogs.com/luckrain7/) | [知乎](https://www.zhihu.com/people/luckrain7)
+
+
+
+#### 微信公众号
+
+欢迎扫码关注我的公众号（您的关注是莫大的鼓励 💗💗💗💗💗）
+
+<img src="https://luckrain7.github.io/Knowledge-Sharing/resource/images/wx.png" style="height:300px;float:left;"/>

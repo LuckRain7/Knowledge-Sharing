@@ -55,6 +55,8 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 
 <kbd>Q</kbd> |  <kbd>W</kbd>  | <kbd>E</kbd> |  <kbd>R</kbd> 
 
+![](./kbd.png)
+
 ### 3.2  十六进制代码可视化
 
 十六进制代码可视化：`#C6E48B` `#7AC96F` `#249A3C` `#196127`
@@ -69,18 +71,16 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 
 ```
 ​```diff
-10 PRINT “BASIC IS COOL”
-- 20 GOTO 11
-+ 20 GOTO 10
+- box.onclick = fn.bind(obj, 200);
++ box.onclick = fn.call(obj, 200);
 ​```
 ```
 
 效果如下
 
 ```diff
-10 PRINT “BASIC IS COOL”
-- 20 GOTO 11
-+ 20 GOTO 10
+- box.onclick = fn.bind(obj, 200);
++ box.onclick = fn.call(obj, 200);
 ```
 
 ###  3.4 折叠效果

@@ -195,4 +195,24 @@ Having some problems firing up the laser.
 
 
 
+## 5.  修改仓库语言
 
+项目仓库是根据根目录下的文件类型进行判断，哪种类型多，仓库就在仓库列表界面显示哪种语言类型
+
+修改步骤：
+
+1.在项目中添加文件 ` .gitattributes `
+
+2.输入以下内容（重置识别类型）：
+
+```
+ *.[扩展名] linguist-language=[将此文件识别为哪种语言]
+ 
+ # 我这以vue为例
+ *.js linguist-language=vue
+ *.css linguist-language=vue
+ *.html linguist-language=vue
+ *.sh linguist-language=vue
+```
+
+这样项目仓库语言会被修改为 vue

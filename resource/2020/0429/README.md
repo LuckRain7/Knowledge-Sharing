@@ -103,7 +103,7 @@ Having some problems firing up the laser.
 501 touch /opt/LLL/run/ok
 502 LLLSDLaserControl -ok1
 </pre>
-</pre<details>
+<details>
 ```
 
 效果如下：
@@ -216,3 +216,24 @@ Having some problems firing up the laser.
 ```
 
 这样项目仓库语言会被修改为 vue
+
+#### 参考文章：
+https://github.blog/2020-04-09-github-protips-tips-tricks-hacks-and-secrets-from-lee-reilly/
+
+### 推荐阅读：
+
+- [一道关于JavaScript 代码执行顺序的面试题解析](https://mp.weixin.qq.com/s/fJO-7OnSE82t6Gqqt8n0Fg)
+
+- [如何在 Array.forEach 中正确使用 async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
+
+- [如何在 Array.filter 中正确使用 async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
+
+- [如何在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
+
+- [如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
+
+- [一道“简单”的This题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
+
+如果对你有所帮助，可以点赞、收藏。
+
+![](https://imgkr.cn-bj.ufileos.com/bb868f77-c3d6-401c-9f65-243b9b4fff48.png)

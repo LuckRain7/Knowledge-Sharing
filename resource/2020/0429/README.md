@@ -55,7 +55,7 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 
 <kbd>Q</kbd> |  <kbd>W</kbd>  | <kbd>E</kbd> |  <kbd>R</kbd> 
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/kbd.png)
+
 
 
 
@@ -149,7 +149,7 @@ Having some problems firing up the laser.
 <p>This is RainCode</p>
 </div>
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/img-center.png)
+
 
 ### 3.5 较小的文字
 
@@ -169,7 +169,7 @@ Having some problems firing up the laser.
 <sup><strong>Fig 1:</strong> luckrain7's logo</sup>
 </div>
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/little-word.png)
+
 
 ## 4.徽标制作
 

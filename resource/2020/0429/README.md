@@ -4,27 +4,27 @@
 
 在项目名称搜索 in:name xxx
 
-![in:name xxx](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/inname.png)
+![in:name xxx](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/inname.png)
 
 在项目描述搜索 in:description xxx
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/indescription.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/indescription.png)
 
 在项目 README 搜索 in:readme xxx
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/inreadme.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/inreadme.png)
 
 利用 star 搜索 stars:>3000 xxx 
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/instars.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/instars.png)
 
 利用 fork 搜索 forks:>300 xxx
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/inforks.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/inforks.png)
 
 也可以直接使用 GitHub 高级搜索页面 [ https://github.com/search/advanced ]( https://github.com/search/advanced )
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/github-self-advanced-search.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/github-self-advanced-search.png)
 
 ## 2.  轻松浏览文件和目录
 
@@ -34,7 +34,7 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 
 下方图片来源  `https://github.com/ovity/octotree (Octotree 官方文档)`
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/78818701-ee142700-7989-11ea-9297-c3cf4e88f891.gif)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/78818701-ee142700-7989-11ea-9297-c3cf4e88f891.gif)
 
 
 
@@ -55,7 +55,7 @@ Octotree 浏览器插件，可以帮助您浏览目录，并使用熟悉的树�
 
 <kbd>Q</kbd> |  <kbd>W</kbd>  | <kbd>E</kbd> |  <kbd>R</kbd> 
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/kbd.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/kbd.png)
 
 
 
@@ -91,8 +91,8 @@ Having some problems firing up the laser.
 489 vi LLLSDLaserControl.c
 490 make
 491 make install
-492 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/sanity_check
-493 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/configure -o test.cfg
+492 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/sanity_check
+493 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/configure -o test.cfg
 494 vi test.cfg
 495 vi ~/last_will_and_testament.txt
 496 cat /proc/meminfo
@@ -115,8 +115,8 @@ Having some problems firing up the laser.
 489 vi LLLSDLaserControl.c
 490 make
 491 make install
-492 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/sanity_check
-493 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/configure -o test.cfg
+492 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/sanity_check
+493 https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/configure -o test.cfg
 494 vi test.cfg
 495 vi ~/last_will_and_testament.txt
 496 cat /proc/meminfo
@@ -149,7 +149,7 @@ Having some problems firing up the laser.
 <p>This is RainCode</p>
 </div>
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/img-center.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/img-center.png)
 
 ### 3.5 较小的文字
 
@@ -169,7 +169,7 @@ Having some problems firing up the laser.
 <sup><strong>Fig 1:</strong> luckrain7's logo</sup>
 </div>
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/little-word.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/little-word.png)
 
 ## 4.徽标制作
 
@@ -179,7 +179,7 @@ Having some problems firing up the laser.
 
 2.向下滑动，找到 `Static` 功能标题，如图进行制作
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/shieldsio.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/shieldsio.png)
 
 3.页面会跳转到制作好的徽标页面，右击点击徽标(SVG格式)保存到本地
 
@@ -188,10 +188,10 @@ Having some problems firing up the laser.
 ```
 将图片上传到自己的图床中或仅本地使用
 使用图片嵌套格式使用
-[![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/RainCode.svg)](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+[![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/RainCode.svg)](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
 ```
 
-[![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0427/RainCode.svg)](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+[![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0429/RainCode.svg)](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
 
 
 

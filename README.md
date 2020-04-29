@@ -20,6 +20,8 @@
 
 - [前端知识图谱](http://rain7.top/engineering/engineering.html)
 
+- [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
+
 - 工具整理
 
   - [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)

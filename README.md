@@ -1,6 +1,4 @@
-## luckrain7 的知识分享
-
-https://luckrain7.github.io/Knowledge-Sharing/images/
+## LuckRain7 的知识分享
 
 [![](https://luckrain7.github.io/Knowledge-Sharing/images/juejin.svg)](https://juejin.im/user/5c749a736fb9a049a97a5a8e)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/SegmentFault.svg)](https://segmentfault.com/u/rain7)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/CSDN.svg)](https://blog.csdn.net/True_Rain)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/jianshu.svg)](https://www.jianshu.com/u/b456d77c42db)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/RainCode.svg)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/zhihu.svg)](https://www.zhihu.com/people/luckrain7)
 

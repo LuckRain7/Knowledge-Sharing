@@ -68,10 +68,19 @@
 
   - [nuxt.js 究极按需引入-ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
-- [ArcGIS + Vue 地图项目教程](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
 
-  - [（一）ArcGIS API for JavaScript 本地部署(开发环境)](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
 
+
+### [ArcGIS + Vue 地图项目教程](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
+
+<details>
+<summary>列表</summary>
+
+- [（一）ArcGIS API for JavaScript 本地部署(开发环境)](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
+
+- [（二）加载地图](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
+
+</<details>
 
 ### Plaything（玩具）
 

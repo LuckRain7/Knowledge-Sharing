@@ -80,7 +80,7 @@
 
 - [（二）加载地图](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
 
-</<details>
+</details>
 
 ### Plaything（玩具）
 

@@ -79,7 +79,7 @@
 
 ### Plaything（玩具）
 
-- [vue-image-cropper-simple -A simple and effective vue component for image crop. （基于 vue 的图片剪裁组件）](https://github.com/LuckRain7/vue-image-cropper-simple)
+- [✂ vue-image-cropper-simple : A simple and effective vue component for image crop. （基于 vue 的图片剪裁组件）](https://github.com/LuckRain7/vue-image-cropper-simple)
 
 - [🐞 基于 Node 的爬虫 Example](https://github.com/LuckRain7/web-crawler)
 

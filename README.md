@@ -83,7 +83,7 @@
 
 - [🐞 基于 Node 的爬虫 Example](https://github.com/LuckRain7/web-crawler)
 
-- [🔧 帮您生成 webhook 服务器端代码（基于 Node）](https://github.com/LuckRain7/webhooks-server-generator)
+- 🔧 帮您生成 webhook 服务器端代码（基于 Node）[Nuxt 版本](https://github.com/LuckRain7/webhooks-server-generator) | [Vue 版本](https://github.com/LuckRain7/webhooks-code-generator)
 
 ### 您也可以在以下网站关注我：
 

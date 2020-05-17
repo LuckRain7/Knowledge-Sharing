@@ -22,15 +22,15 @@
 
 - [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
 
-- 工具整理
+* 工具整理
 
-- [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)
+  - [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)
 
-- [【提高效率】前端 VS Code 插件推荐](http://rain7.top/share/vscode.html)
+  - [【提高效率】前端 VS Code 插件推荐](http://rain7.top/share/vscode.html)
 
-- [【提高效率】前端组件库工具集合](http://rain7.top/farme/index.html)
+  - [【提高效率】前端组件库工具集合](http://rain7.top/farme/index.html)
 
-- [【提高效率】必备工具集合推荐（持续更新...）](  https://luckrain7.github.io/Knowledge-Sharing/tool  )
+  - [【提高效率】必备工具集合推荐（持续更新...）](  https://luckrain7.github.io/Knowledge-Sharing/tool  )
 
 * JavaScript
 

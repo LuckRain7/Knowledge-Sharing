@@ -30,7 +30,7 @@
 
   - [【提高效率】前端组件库工具集合](http://rain7.top/farme/index.html)
 
-  - [【提高效率】必备工具集合推荐（持续更新...）](  https://luckrain7.github.io/Knowledge-Sharing/tool  )
+  - [【提高效率】必备工具集合推荐（持续更新...）](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/tool)
 
 * JavaScript
 

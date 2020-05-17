@@ -1,6 +1,11 @@
 # 【提高效率】必备工具推荐（持续更新...）
 
-![](./images/tools.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/tool/images/tools.png)
+
+<details>
+<summary>目录</summary>
+[1.  ASCIIFlow Infinity](#1--asciiflow-infinity)
+</details>
 
 ## 1.  ASCIIFlow Infinity
 
@@ -12,7 +17,7 @@
 
 使用 ASCII 编码，可以画出非常酷的直线、矩形、箭头、曲线等图形，这些图形可以复制到代码当中。
 
-![](./images/httpasciiflow.png)
+![](https://luckrain7.github.io/Knowledge-Sharing/tool/images/httpasciiflow.png)
 
 ASCIIFlow Infinity 同样也存在着一些问题：
 

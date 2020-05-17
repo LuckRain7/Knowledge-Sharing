@@ -5,7 +5,7 @@
 <details>
 <summary>目录</summary>
 
-- [1.  ASCIIFlow Infinity](#1--asciiflow-infinity)
+- [1.  ASCIIFlow Infinity - 一款通过 ASCII 编码来绘制图表的在线工具](#1--asciiflow-infinity)
 
 </details>
 

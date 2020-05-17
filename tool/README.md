@@ -4,7 +4,9 @@
 
 <details>
 <summary>目录</summary>
-[1.  ASCIIFlow Infinity](#1--asciiflow-infinity)
+
+- [1.  ASCIIFlow Infinity](#1--asciiflow-infinity)
+
 </details>
 
 ## 1.  ASCIIFlow Infinity

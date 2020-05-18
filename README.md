@@ -22,7 +22,7 @@
 
 - [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
 
-* 工具整理
+* 📁工具整理
 
   - [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)
 
@@ -32,7 +32,7 @@
 
   - [【提高效率】必备工具集合推荐（持续更新...）](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/tool)
 
-* JavaScript
+* 📁 JavaScript
 
   - [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
 
@@ -52,11 +52,11 @@
 
   - [如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
 
-- Vue
+- 📁 Vue
 
   - [如何在 Vue 中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
 
-- Git
+- 📁 Git
 
   - [Git 常用命令及应用这一篇就够了（新手向）](https://mp.weixin.qq.com/s/4gWe9dm5nSt9MGFKhZBv2g)
 
@@ -64,14 +64,14 @@
 
 - [package.json 项目说明文件](http://rain7.top/engineering/package.json.html)
 
-- Nuxt.JS
+- 📁 Nuxt.JS
 
   - [nuxt.js 究极按需引入 ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
 ### ArcGIS + Vue 地图项目教程
 
 <details>
-<summary>列表</summary>
+<summary>📁列表</summary>
 
 - [（一）ArcGIS API for JavaScript 本地部署(开发环境)](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
 

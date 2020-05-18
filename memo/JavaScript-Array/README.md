@@ -1,6 +1,18 @@
 #  JavaScript 的 Array  对象 
 
->  JavaScript 的 Array 对象是用于构造数组的全局对象，数组是类似于列表的高阶对象。 目录：
+>  JavaScript 的 Array 对象是用于构造数组的全局对象，数组是类似于列表的高阶对象。 
+
+<details>
+<summary>目录：</summary>
+
+- [属性](#1--属性)
+- [方法](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
+  + [Array.prototype.filter()](#arrayprototypefilter)
+  + [Array.prototype.some()](#arrayprototypesome)
+
+</details>
+
+
 
 ## 1.  属性
 
@@ -21,12 +33,9 @@ Array.prototype.fill()
 
 ### Array.prototype.filter()
 
-> 创建一个新数组, 其包含通过所提供函数实现的测试的所有元素。  
->
+> 创建一个新数组, 其包含通过所提供函数实现的测试的所有元素。 
 > 断言函数值为 true ，返回数组中的值。
->
 > 常用于数组内容的过滤
->
 > [MDN Web 文档](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
 
 ```javascript

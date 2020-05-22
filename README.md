@@ -19,7 +19,7 @@
 ## 文章列表
 
 - [前端知识图谱](http://rain7.top/engineering/engineering.html)
-
+- [前端外文翻译列表](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate)
 - [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
 
 * 📁工具整理
@@ -66,16 +66,19 @@
 
 - 📁 Nuxt.JS
 
-  - [nuxt.js 究极按需引入 ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
+  - [Nuxt.js 究极按需引入 ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
 ### ArcGIS + Vue 地图项目教程
 
 <details>
-<summary>📁列表</summary>
+<summary>📁 列表</summary>
 
-- [（一）ArcGIS API for JavaScript 本地部署(开发环境)](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
-
-- [（二）加载地图](https://github.com/LuckRain7/arcgis-api-for-javascript-vue)
+- [（1）ArcGIS API for JavaScript 本地部署(开发环境)](https://luckrain7.github.io/arcgis-api-for-javascript-vue/Demo-1/)
+- [（2）加载地图](https://luckrain7.github.io/arcgis-api-for-javascript-vue/Demo-2/)
+- [（3）添加常规的地图组件(底图切换、测量工具、比例尺、标绘工具)](https://luckrain7.github.io/arcgis-api-for-javascript-vue/Demo-3/)
+- [（4）加载 ArcGIS Server 地图服务](https://github.com/LuckRain7/arcgis-api-for-javascript-vue/tree/master/Demo-4)
+- [（5）实现 ArcGIS Server 地图服务信息查询 - 空间查询](https://github.com/LuckRain7/arcgis-api-for-javascript-vue/tree/master/Demo-5)
+- [（6）实现 ArcGIS Server 地图服务信息查询 - 属性查询](https://github.com/LuckRain7/arcgis-api-for-javascript-vue/tree/master/Demo-6)
 
 </details>
 

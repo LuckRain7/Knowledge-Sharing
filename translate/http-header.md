@@ -1,5 +1,7 @@
 #  有趣的 HTTP 头信息 
 
+![](https://luckrain7.github.io/Knowledge-Sharing/translate/images/http-header.png)
+
 > 原文地址： https://frenxi.com/http-headers-you-dont-expect/ 
 >
 > 原文作者： Francesco Carlucci 

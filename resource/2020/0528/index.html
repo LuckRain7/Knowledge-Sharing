@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2020-05-28</title>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+
+        .rain {
+            max-width: 1000px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="rain">
+        <section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com"
+            style="font-size: 16px; color: black; padding: 0 10px; line-height: 1.6; word-spacing: 0px; letter-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: -10px;">
+            <h1 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 24px;">
+                <span class="prefix" style="display: none;"></span><span class="content">🔑 最佳密码长度是多少？</span><span
+                    class="suffix"></span></h1>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/d8edeb36-276b-491b-937b-6a2b35f6943e.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <blockquote data-tool="mdnice编辑器"
+                style="display: block; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; border-left: 3px solid rgba(0, 0, 0, 0.4); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; border-left-color: rgb(239, 112, 96); background: #fff9f9;">
+                <p
+                    style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0px; color: black; line-height: 26px;">
+                    原文地址： https://advancedweb.hu/what-is-the-optimal-password-length/</p>
+                <p
+                    style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0px; color: black; line-height: 26px;">
+                    原文作者： <strong style="font-weight: bold; color: black;">Tamás Sallai</strong></p>
+            </blockquote>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">1.
+                    引言</span><span class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                如何选择一个密码，最好的保护您，防止数据泄漏。</p>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">2.
+                    密码强度</span><span class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                密码强度当然是越多越好，使用现有的密码管理软件，可以快速自动生成和填充任意长度的密码。但是，密码应该是多少位是最佳的，有没有一个合理的下限作为经验法则</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                下面是一个典型的密码生成器界面:</p>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="./password-generator.png" alt style="display: block; margin: 0 auto; max-width: 100%;">
+            </figure>
+            <blockquote data-tool="mdnice编辑器"
+                style="display: block; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; border-left: 3px solid rgba(0, 0, 0, 0.4); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; border-left-color: rgb(239, 112, 96); background: #fff9f9;">
+                <p
+                    style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0px; color: black; line-height: 26px;">
+                    注意：它的密码长度可以设置8-100位字符</p>
+            </blockquote>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">3.
+                    数据泄露前，一个好的密码是你所拥有的一切</span><span class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                但要理解什么是安全密码，让我们看看另一边发生了什么!</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                当您创建帐户时，您正在注册的服务将以多种现有密码加密形式之一存储密码。密码直接将其放入数据库，或者使用现有算法对其进行散列。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                一些最常用的哈希算法包括 ：</p>
+            <ul data-tool="mdnice编辑器"
+                style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        MD5</section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        SHA-1</section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        Bcrypt</section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        Scrypt</section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        Argon2</section>
+                </li>
+            </ul>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                存储散列数据而不是密码本身的好处是，密码不在数据库中。你只需要知道哪些散列数据是你的，而不必知道它具体的值是多少。当您登录时，提供的密码用相同的算法进行散列，如果结果与存储的值匹配，那么您就已经证明了您知道密码。而在数据库被攻破的情况下，密码是不可恢复的。
+            </p>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/8651aeca-0608-4b58-b8fb-dd258213f5df.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <h3 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;">
+                <span class="prefix" style="display: none;"></span><span class="content">3.1 密码破解</span><span
+                    class="suffix" style="display: none;"></span></h3>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                密码破解是攻击者试图逆转哈希函数并从哈希恢复密码。使用一个好的哈希算法，不可能恢复密码，但是尝试各种输入以查看它们是否产生相同的结果是不可能的。如果要找到这样的匹配，则需要从散列中恢复密码。</p>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/383d6a50-ac50-40f5-87c9-9bc27255d7b4.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                选择一个好的算法在这里很重要。SHA-1 是为速度而设计的，速度有助于裂解过程。Bcrypt、Scrypt 和 Argon2被设计为以各种方式使裂化尽可能慢的高成本，特别是在专用硬件上，差异是巨大的。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                仅考虑速度，无法破解的 SHA-1 散列密码是这样的： <code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">0OVTrv62y2dLJahXjd4FVg81</code>。
+            </p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                使用正确配置的 Argon2 散列的安全密码： <code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">Pa$$w0Rd1992</code>。
+            </p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                正如您所看到的，选择正确的哈希算法可以使一个弱密码成为不可破解的密码。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                请记住，这仅取决于您要注册的服务的实现方式。 而且，您无法知道实现在哪一部分算法上。 您可以问，但是他们甚至可能不会回应或说他们“认真对待安全性”等类似话术。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                您是否相信公司会认真对待密码的安全性，使用良好的哈希算法而不是很糟糕的算法。查看被破坏的数据库列表，尤其是所使用的哈希。 他们中的许多人仍然使用MD5，大多数使用SHA-1，还有一些使用bcrypt。
+                有些甚至以纯文本形式存储密码。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                这里存在一种偏见，因为我们只知道被攻破的数据库使用了什么哈希，而且使用弱算法的公司很可能也未能保护它们的基础设施。但是看看这个列表，我敢肯定您会发现一些您不会想到的熟悉的名称。仅仅因为一家公司看起来规模大、声誉好，并不意味着他们会做正确的事情。
+            </p>
+            <h3 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;">
+                <span class="prefix" style="display: none;"></span><span class="content">3.2 选择密码</span><span
+                    class="suffix" style="display: none;"></span></h3>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                作为一个用户，下面的操作对您可能产生多大的影响?</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                使用纯文本密码，您什么也做不了。如果数据库消失了，您的密码强度并不重要。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                使用正确配置的算法，您的密码的安全性也没有多大关系，不考虑 <code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">12345</code>
+                和<code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">asdf</code>这样的小情况。
+            </p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                但在这两者之间，尤其是SHA-1，你的选择很重要。哈希函数通常不适合密码，但如果使用安全密码，就可以弥补算法的不足。</p>
+            <table data-tool="mdnice编辑器" style="display: table; text-align: left;">
+                <thead>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left; font-weight: bold; background-color: #f0f0f0;">
+                            Hash algo</th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            <code>asdf</code></th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            <code>AJnseykp</code></th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            <code>8VjB2qwD7eN3eG4Fjkfeks</code></th>
+                    </tr>
+                </thead>
+                <tbody style="border: 0;">
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">None
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">MD5
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">SHA-1
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">Bcrypt
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓*
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">Scrypt
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓*
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">Argon2
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">-
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓*
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">✓
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                这取决于配置。这些散列有不同的移动部分，影响它们的强度，但当正确配置时，它们可以阻止试图破解。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                底线：如果你使用的是强密码，那么你比弱密码受到更多的攻击保护。由于您不知道密码存储的安全性如何，所以您无法确定对于给定的服务什么是足够安全的。所以，假设最坏的情况，设置高强度的密码。</p>
+            <h3 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;">
+                <span class="prefix" style="display: none;"></span><span class="content">3.3 一个密码是不够的</span><span
+                    class="suffix" style="display: none;"></span></h3>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                我们需要考虑是否使用密码管理器并为每个站点生成唯一的密码。在实际情况中，当一个站点服务被攻破，使用您的已知电子邮箱和密码在其他站点尝试攻击时， 多个密码会使您不会受到密码重用的攻击。
+                密码重用是非常常见的问题之一，同时也是一个巨大的威胁。</p>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/433eb339-4efd-4c1c-a39e-fdda87fce10c.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                为每个站点生成一个新密码可以避免这种情况。一个数据库被盗，黑客知道数据库内一切内容，为什么还要保护密码？</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                原因是，当您不知道数据库已被攻破，而继续使用该服务时。在这种情况下，黑客可以访问您未来在该站点上的所有活动。你可能以后再加一张信用卡，他们还是知道的。强密码意味着他们无法登录您的凭证，并且不能影响您未来的活动。
+            </p>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/5bd8dc19-9d23-4913-9610-c8910771df1e.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">4.
+                    如何用熵来度量密码强度</span><span class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                密码强度都与熵有关，熵是一种表示密码随机性的数值。因为我们处理的是大数，所以与其说有1,099,511,627,776(2的40次方)个不同的变量，倒不如说它有40位的熵。而密码破解的关键在于密码变体的数量，因为密码变体越多，尝试所有可能性所需的时间就越多。
+            </p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                对于由密码管理器生成的随机字符，熵很容易计算：log2（&lt;不同字符数&gt; ^ &lt;长度&gt;）。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                长度是微不足道的，但是不同字符的数量是多少?这取决于密码的字符类型。</p>
+            <table data-tool="mdnice编辑器" style="display: table; text-align: left;">
+                <thead>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left; font-weight: bold; background-color: #f0f0f0;">
+                            字符类型</th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            例子</th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            字符数</th>
+                    </tr>
+                </thead>
+                <tbody style="border: 0;">
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">只有小写字母
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">abc
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">26
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">+ 大写字母
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">aBc
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">52
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">+ 数字
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">aBc1
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">62
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">+ 特殊字符
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">
+                            aB?c1</td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">84
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                例如，长度为10的密码（包含大小写字母的随机混合）具有<code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">log2（52 ^ 10）= 57</code>位熵。
+            </p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                上面的数学表达式可以简化为使用 <code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">log2(n ^ m) = m * log2(n)</code>表达式来查看给定类的单个字符对总体强度的影响。这样就得到了:<code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">&lt;长度&gt; * log2(&lt;不同字符的数量&gt;)</code>，其中第二部分是每个字符的熵。上表，使用这个公式
+            </p>
+            <table data-tool="mdnice编辑器" style="display: table; text-align: left;">
+                <thead>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left; font-weight: bold; background-color: #f0f0f0;">
+                            字符类型</th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            例子</th>
+                        <th
+                            style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; font-weight: bold; background-color: #f0f0f0; text-align: center;">
+                            熵/字符(位)</th>
+                    </tr>
+                </thead>
+                <tbody style="border: 0;">
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">只有小写字母
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">
+                            例子abc</td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">
+                            字符数4.7</td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">+ 大写字母
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">aBc
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">5.7
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: white;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">+ 数字
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">aBc1
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">5.95
+                        </td>
+                    </tr>
+                    <tr style="border: 0; border-top: 1px solid #ccc; background-color: #F8F8F8;">
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: left;">+ 特殊字符
+                        </td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">
+                            aB?c1</td>
+                        <td style="font-size: 16px; border: 1px solid #ccc; padding: 5px 10px; text-align: center;">6.4
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                要计算密码的强度，请考虑其组成的字符类型，从表中获取熵数并乘以长度。 上面的示例（长度为10的小写字母和大写字母）产生5.7 * 10 = 57位。 但是，如果将长度增加到14，则熵会跳到79.8位。
+                但是，如果将长度保持为10，但添加数字和特殊字符，则总熵将为64位。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                上面的表达式提供了一种快速计算密码熵的方法，但是有一个警告。它只适用于字符彼此独立的情况，这只适用于生成的密码。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                密码 <code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">H8QavhV2gu</code>满足此条件，因此具有57位的熵。
+            </p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                但是像<code
+                    style="font-size: 14px; word-wrap: break-word; padding: 2px 4px; border-radius: 4px; margin: 0 2px; background-color: rgba(27,31,35,.05); font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; word-break: break-all; color: rgb(239, 112, 96);">Pa$$word11</code>这样更容易记住的字符，虽然长度相同，字符类更多，但是熵却少得多。
+                破解者仅对字典中的单词进行一些转换就可以尝试所有组合。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                因此，任何基于字符类型的熵与长度相乘的计算都只对生成的密码有效。</p>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">5.
+                    熵的准则</span><span class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                密码的熵越大，破解就越困难，但熵为多少才足够呢？一般的看法是，~16个字符对于密码来说应该足够了，根据是否包含特殊字符，密码的输出在95 -
+                102位之间。但是门槛是什么呢？80位？60位？或者即使使用102位也太低了 ？</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                还有一种算法在速度上类似于糟糕的密码散列算法，但研究得更好:AES加密。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                它用于加密各种政府和军事机构中的所有秘密，因此，其强度得到了充分考虑。 而且它的速度很快，因此，如果无法破解具有特定熵的密钥，那么AES对于具有错误（但不会破损）哈希值的密码将非常有用。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                NIST(国家标准和技术协会)是一个实体，它定义了在可预见的未来长度多少是合适的。2019 - 2030年及以后的AES-128，他们的建议是128位。</p>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/e44d3a7f-0ed8-4b7d-88a0-496c7b7d1436.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                另一个专门针对关键密码长度的建议是至少使用112位的熵 。</p>
+            <blockquote data-tool="mdnice编辑器"
+                style="display: block; font-size: 0.9em; overflow: auto; overflow-scrolling: touch; border-left: 3px solid rgba(0, 0, 0, 0.4); color: #6a737d; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 10px; margin-bottom: 20px; margin-top: 20px; border-left-color: rgb(239, 112, 96); background: #fff9f9;">
+                <p
+                    style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0px; color: black; line-height: 26px;">
+                    对于联邦政府来说，此时应用加密保护(例如加密或签名数据)需要至少112位的安全强度。</p>
+            </blockquote>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                要使用小写字母和大写字母以及数字来获得128位的熵，需要长度为22(5.95 * 22 = 131位)的熵。 #</p>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">6.
+                    其他的考虑</span><span class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <h3 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;">
+                <span class="prefix" style="display: none;"></span><span class="content">6.1 为什么没有特殊字符?</span><span
+                    class="suffix" style="display: none;"></span></h3>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                我倾向于不使用特殊字符，因为它们打破了单词的边界。这意味着选择密码需要单击3次而不是2次，如果我不小心没有将部分密码粘贴到输入字段，就会产生错误。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                只用字符和数字，双击总是会选择整个密码。</p>
+            <h3 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 20px;">
+                <span class="prefix" style="display: none;"></span><span class="content">6.2 如果有一个最大长度呢?</span><span
+                    class="suffix" style="display: none;"></span></h3>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                有些网站规定了密码的最大长度，以防止您使用22个字符。在某些情况下，它会达到极端的长度，比如需要恰好5位数字。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                在这种情况下，使用最大可用长度，您可以做的事情很少。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                还有一些关于该服务如何处理密码和限制密码长度的建议，显然是针对他们的。NIST说 : 至少要有64个字符的长度以支持密码短语的使用。
+                鼓励用户使用自己喜欢的任何字符（包括空格）尽可能长地存储所记住的秘密，从而有助于记忆。</p>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                记住，该服务可以存储密码的方式从糟糕到超级，他们不会告诉你他们是如何做到的？较短的密码长度给人的印象是，他们的强度会很差。</p>
+            <h2 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; border-bottom: 2px solid rgb(239, 112, 96); font-size: 1.3em;">
+                <span class="prefix" style="display: none;"></span><span class="content"
+                    style="display: inline-block; font-weight: bold; background: rgb(239, 112, 96); color: #ffffff; padding: 3px 10px 1px; border-top-right-radius: 3px; border-top-left-radius: 3px; margin-right: 3px;">结论</span><span
+                    class="suffix"></span><span
+                    style="display: inline-block; vertical-align: bottom; border-bottom: 36px solid #efebe9; border-right: 20px solid transparent;">
+                </span></h2>
+            <p data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black;">
+                强大的密码是需要的，即使你不重用它们。强度是用熵来衡量的，你应该以128 bits 为目标。长度为22的小写+大写+数字密码组合可以查过128 bits 。这种密码将在数据泄漏时保护您。</p>
+            <h4 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;">
+                <span class="prefix" style="display: none;"></span><span class="content">推荐阅读</span><span class="suffix"
+                    style="display: none;"></span></h4>
+            <ul data-tool="mdnice编辑器"
+                style="margin-top: 8px; margin-bottom: 8px; padding-left: 25px; color: black; list-style-type: disc;">
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        <a href="https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w"
+                            style="text-decoration: none; word-wrap: break-word; font-weight: bold; color: rgb(239, 112, 96); border-bottom: 1px solid rgb(239, 112, 96);">如何在
+                            Array.forEach 中正确使用 async</a></section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        <a href="https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw"
+                            style="text-decoration: none; word-wrap: break-word; font-weight: bold; color: rgb(239, 112, 96); border-bottom: 1px solid rgb(239, 112, 96);">如何在
+                            Array.filter 中正确使用 async</a></section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        <a href="https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg"
+                            style="text-decoration: none; word-wrap: break-word; font-weight: bold; color: rgb(239, 112, 96); border-bottom: 1px solid rgb(239, 112, 96);">如何在
+                            Array.reduce 中正确使用 async</a></section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        <a href="https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA"
+                            style="text-decoration: none; word-wrap: break-word; font-weight: bold; color: rgb(239, 112, 96); border-bottom: 1px solid rgb(239, 112, 96);">如何在
+                            Array.map 中正确使用 async</a></section>
+                </li>
+                <li>
+                    <section
+                        style="margin-top: 5px; margin-bottom: 5px; line-height: 26px; text-align: left; color: rgb(1,1,1); font-weight: 500;">
+                        <a href="https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA"
+                            style="text-decoration: none; word-wrap: break-word; font-weight: bold; color: rgb(239, 112, 96); border-bottom: 1px solid rgb(239, 112, 96);">如何在
+                            Array.some 中正确使用 async</a></section>
+                </li>
+            </ul>
+            <h4 data-tool="mdnice编辑器"
+                style="margin-top: 30px; margin-bottom: 15px; padding: 0px; font-weight: bold; color: black; font-size: 18px;">
+                <span class="prefix" style="display: none;"></span><span class="content">关注我不迷路</span><span
+                    class="suffix" style="display: none;"></span></h4>
+            <figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img
+                    src="https://imgkr.cn-bj.ufileos.com/8cdd5517-d2e5-4922-938a-6532c50346fd.png" alt
+                    style="display: block; margin: 0 auto; max-width: 100%;"></figure>
+            <p id="nice-suffix-juejin-container" class="nice-suffix-juejin-container" data-tool="mdnice编辑器"
+                style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: black; margin-top: 20px !important;">
+                本文使用 <a href="https://mdnice.com"
+                    style="text-decoration: none; word-wrap: break-word; font-weight: bold; color: rgb(239, 112, 96); border-bottom: 1px solid rgb(239, 112, 96);">mdnice</a>
+                排版</p>
+        </section>
+    </div>
+</body>
+
+</html>

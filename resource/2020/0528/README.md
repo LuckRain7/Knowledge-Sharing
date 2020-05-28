@@ -141,7 +141,7 @@
 
 NIST(国家标准和技术协会)是一个实体，它定义了在可预见的未来长度多少是合适的。2019 - 2030年及以后的AES-128，他们的建议是128位。 
 
-![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0528/AES-128.PNG)
+![](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0528/AES-128.png)
 
  另一个专门针对关键密码长度的建议是至少使用112位的熵 。
 

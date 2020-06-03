@@ -3,6 +3,10 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+git add . 
+
+git commit -m "docs: update"
+
 # Gitee
 git push git@gitee.com:LuckRain/Knowledge-Sharing.git master
 

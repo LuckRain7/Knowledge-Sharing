@@ -24,6 +24,10 @@
 
 [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
 
+[npm & yarn 包管理工具](http://rain7.top/tools/package)
+
+[package.json 项目说明文件](http://rain7.top/engineering/package.json.html)
+
 📁 工具整理
 
 - [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)
@@ -37,14 +41,23 @@
 📁 JavaScript
 
 - [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
+
 - [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
+
 - [一道“简单”的 This 题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
+
 - [一道关于 JavaScript 代码执行顺序的面试题解析](https://mp.weixin.qq.com/s/fJO-7OnSE82t6Gqqt8n0Fg)
+
 - [如何在 Array.forEach 中正确使用 async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
+
 - [如何在 Array.filter 中正确使用 async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
+
 - [如何在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
+
 - [如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
+
 - [如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+
 - [正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
 
 📁 Vue
@@ -55,8 +68,6 @@
 
 - [Git 常用命令及应用这一篇就够了（新手向）](https://mp.weixin.qq.com/s/4gWe9dm5nSt9MGFKhZBv2g)
 
-- [npm & yarn 包管理工具](http://rain7.top/tools/package)
-- [package.json 项目说明文件](http://rain7.top/engineering/package.json.html)
 
 📁 Nuxt.JS
 

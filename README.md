@@ -1,6 +1,6 @@
 ## LuckRain7 的知识分享
 
-[![](https://luckrain7.github.io/Knowledge-Sharing/images/juejin.svg)](https://juejin.im/user/5c749a736fb9a049a97a5a8e)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/SegmentFault.svg)](https://segmentfault.com/u/rain7)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/CSDN.svg)](https://blog.csdn.net/True_Rain)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/jianshu.svg)](https://www.jianshu.com/u/b456d77c42db)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/RainCode.svg)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect)   [![](https://luckrain7.github.io/Knowledge-Sharing/images/zhihu.svg)](https://www.zhihu.com/people/luckrain7)
+[![](https://luckrain7.github.io/Knowledge-Sharing/images/juejin.svg)](https://juejin.im/user/5c749a736fb9a049a97a5a8e) [![](https://luckrain7.github.io/Knowledge-Sharing/images/SegmentFault.svg)](https://segmentfault.com/u/rain7) [![](https://luckrain7.github.io/Knowledge-Sharing/images/CSDN.svg)](https://blog.csdn.net/True_Rain) [![](https://luckrain7.github.io/Knowledge-Sharing/images/jianshu.svg)](https://www.jianshu.com/u/b456d77c42db) [![](https://luckrain7.github.io/Knowledge-Sharing/images/RainCode.svg)](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect) [![](https://luckrain7.github.io/Knowledge-Sharing/images/zhihu.svg)](https://www.zhihu.com/people/luckrain7)
 
 ### 关于我
 
@@ -24,7 +24,7 @@
 
 [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
 
-📁工具整理
+📁 工具整理
 
 - [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)
 
@@ -66,11 +66,12 @@
 - [package.json 项目说明文件](http://rain7.top/engineering/package.json.html)
 
 📁 Nuxt.JS
+
 - [Nuxt.js 究极按需引入 ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
 📁 安全
 
-  - [🔑 最佳密码长度是多少？](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0528)
+- [🔑 最佳密码长度是多少？](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0528)
 
 ### ArcGIS + Vue 地图项目教程
 
@@ -96,7 +97,7 @@
 
 ### 您也可以在以下网站关注我：
 
-[掘金](https://juejin.im/user/5c749a736fb9a049a97a5a8e) | [SegmentFault 思否](https://segmentfault.com/u/rain7) | [CSDN](https://blog.csdn.net/True_Rain) | [简书](https://www.jianshu.com/u/b456d77c42db) | [微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect) | [博客园](https://www.cnblogs.com/luckrain7/) | [知乎](https://www.zhihu.com/people/luckrain7)
+[掘金](https://juejin.im/user/5c749a736fb9a049a97a5a8e) | [SegmentFault 思否](https://segmentfault.com/u/rain7) | [CSDN](https://blog.csdn.net/True_Rain) | [简书](https://www.jianshu.com/u/b456d77c42db) | [微信公众号](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI0ODczNDM0NQ==&scene=124#wechat_redirect) | [博客园](https://www.cnblogs.com/luckrain7/) | [知乎](https://www.zhihu.com/people/luckrain7) | [今日头条](https://www.toutiao.com/c/user/786893133326045/)
 
 ### 微信公众号
 

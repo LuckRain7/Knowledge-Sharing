@@ -45,7 +45,7 @@
 - [如何在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
 - [如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
 - [如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
-- [正确的将 Promise 链重构为 async 函数]
+- [正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
 
 📁 Vue
 

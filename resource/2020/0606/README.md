@@ -1,4 +1,4 @@
-# 新手向~MarkDown 语法
+# MarkDown 让文档更高效
 
 ![markdown.png](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0606/markdown.png)
 

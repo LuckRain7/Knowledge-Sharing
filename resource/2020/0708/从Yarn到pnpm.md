@@ -1,6 +1,6 @@
 # 为什么我们从Yarn切换到pnpm
 
-![logo](C:\Users\ZHCZ\Desktop\2020-07-08\logo.png)
+![logo](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0708/logo.png)
 
 > 原文网址：https://www.takeshape.io/articles/why-we-switched-from-yarn-to-pnpm/
 >
@@ -10,7 +10,7 @@
 
 在 TakeShape，我们非常关注开发人员的生产力。 我们是一个资源有限的小型团队，因此值得花时间考虑如何更快，更高效地合作。 在最近重构我们的构建过程时，我们做出了一个重大决定：我们将抛弃 Yarn 并改用 pnpm 来管理我们的依赖项并运行我们的脚本。 这是关于我们如何做出该决定以及迄今为止如何使我们受益的故事。
 
-![pnpm](C:\Users\ZHCZ\Desktop\2020-07-08\pnpm.png)
+![pnpm](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0708/pnpm.png)
 
 最初，TakeShape 的代码库分散在多个Git存储库中。 每个软件包都是独立开发的，并且彼此依赖。 从理论上讲，这是理想的设置。 在实践中，我们发现所有东西都是相互依赖的，我们真的希望能够同时测试和发布所有软件包。 当我们为其中一个软件包发行新版本时会遇到失败，但是会忘记在依赖它的其他项目中更新该版本。
 
@@ -22,7 +22,7 @@
 
 我们的 `monorepo` 也使我们的CI管道比所需的更加复杂。 首先，我们并行化了` CircleCI `构建，以加快慢速 `Webpack `构建。 但是，随着我们的` monorepo` 的增长，为每个构建分别安装依赖项的开销也在增加。 为每个构建安装依赖项成为瓶颈。 作为回应，我们使用自己编写和维护的 `CircleCI` 脚本巩固了构建过程，以减少使用工作。最终，我们得到了一组脆弱的CI脚本来对任何包进行剪裁、测试和构建更改。
 
-![pnpm](C:\Users\ZHCZ\Desktop\2020-07-08\pnpm.png)
+![pnpm](https://luckrain7.github.io/Knowledge-Sharing/resource/2020/0708/2.png)
 
 我们真正需要的是一种递归安装软件包，提升所有共享依赖关系并运行脚本以进行lint，测试和构建的方法。 我们知道Yarn并不能为我们扩展，因此我们开始考虑替代方案：
 

@@ -1,5 +1,7 @@
 # 文章翻译
 
+[图片优化如何让网站减重60% - [2020-07-18]](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/images-optimization.md)
+
 [Git commit 多行信息提交 - [2020-07-11]](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/content/git-commit)
 
 [为什么我们从Yarn切换到pnpm - [2020-07-08]](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0708)

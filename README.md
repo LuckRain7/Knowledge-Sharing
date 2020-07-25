@@ -28,13 +28,9 @@
 
 [package.json 项目说明文件](http://rain7.top/engineering/package.json.html)
 
-[package.json 项目说明文件](http://rain7.top/engineering/package.json.html)
-
 [MarkDown 让文档更高效](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0606)
 
-[GitHub 开源项目]()
-
-📁 工具整理
+📘 工具整理
 
 - [【提高效率】程序员必备软件推荐](http://rain7.top/share/software.html)
 
@@ -44,49 +40,48 @@
 
 - [【提高效率】必备工具集合推荐（持续更新...）](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/tool)
 
-📁 JavaScript
+📘 JavaScript
 
-- [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
+[防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
 
-- [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
+[深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
 
-- [一道“简单”的 This 题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
+[一道“简单”的 This 题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
 
-- [一道关于 JavaScript 代码执行顺序的面试题解析](https://mp.weixin.qq.com/s/fJO-7OnSE82t6Gqqt8n0Fg)
+[一道关于 JavaScript 代码执行顺序的面试题解析](https://mp.weixin.qq.com/s/fJO-7OnSE82t6Gqqt8n0Fg)
 
-- [如何在 Array.forEach 中正确使用 async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
+[如何在 Array.forEach 中正确使用 async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
 
-- [如何在 Array.filter 中正确使用 async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
+[如何在 Array.filter 中正确使用 async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
 
-- [如何在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
+[如何在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
 
-- [如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
+[如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
 
-- [如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
+[如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
 
-- [正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
+[正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
 
-📁 Vue
+📘 Vue
 
-- [如何在 Vue 中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
+[如何在 Vue 中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)
 
-📁 Git
+📘 Git
 
-- [Git 常用命令及应用这一篇就够了（新手向）](https://mp.weixin.qq.com/s/4gWe9dm5nSt9MGFKhZBv2g)
+[Git 常用命令及应用这一篇就够了（新手向）](https://mp.weixin.qq.com/s/4gWe9dm5nSt9MGFKhZBv2g)
 
+📘 Nuxt.JS
 
-📁 Nuxt.JS
+[Nuxt.js 究极按需引入 ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
 
-- [Nuxt.js 究极按需引入 ant design vue](https://mp.weixin.qq.com/s/1YKTNgyhxBFo3IqoS2Y5Kg)
+📘 安全
 
-📁 安全
-
-- [🔑 最佳密码长度是多少？](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0528)
+[🔑 最佳密码长度是多少？](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0528)
 
 ### ArcGIS + Vue 地图项目教程
 
 <details>
-<summary>📁 列表</summary>
+<summary>📘 列表</summary>
 
 - [（1）ArcGIS API for JavaScript 本地部署(开发环境)](https://luckrain7.github.io/arcgis-api-for-javascript-vue/Demo-1/)
 - [（2）加载地图](https://luckrain7.github.io/arcgis-api-for-javascript-vue/Demo-2/)

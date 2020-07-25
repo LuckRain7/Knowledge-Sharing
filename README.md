@@ -22,6 +22,8 @@
 
 [前端外文翻译列表](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate)
 
+[前端面试相关](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/Jobs)
+
 [玩转 GitHub 的小技巧](https://mp.weixin.qq.com/s/CF78yXfl-e8WaCxwcpSD_w)
 
 [npm & yarn 包管理工具](http://rain7.top/tools/package)

@@ -1,6 +1,6 @@
 # 文章翻译列表
 
-[[2020-08-09] 五种方法延迟加载图像，以获得更好的网站性能]()
+[[2020-08-09] 五种方法延迟加载图像，以获得更好的网站性能](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/content/image-lazy-loading)
 
 [[2020-07-31] axios 内部设计分析](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/axios.md)
 

@@ -1,6 +1,6 @@
 # 五种方法延迟加载图像，以获得更好的网站性能
 
-![lazy-load](lazy-load.png)
+![lazy-load](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/translate/content/image-lazy-loading/lazy-load.png)
 
 > 原文地址：https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/
 >
@@ -18,7 +18,7 @@
 
 很多网站都使用这种方法，但在图片较多的网站上尤为明显。浏览您最喜欢的壁纸网站以获取高分辨率壁纸时，你很快就会意识到网站只能加载有限数量的图片。当您向下滚动页面时，您将看到占位符图像快速地被真实图像填充以进行预览。
 
-![Lazy loading in action on Unsplash.com](1492178800lazy-loading-unsplash.png)
+![Lazy loading in action on Unsplash.com](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/translate/content/image-lazy-loading/1492178800lazy-loading-unsplash.png)
 
 ## 2. 为什么要关心延迟加载图像？
 
@@ -173,9 +173,9 @@ observer.observe();
 
 你首先看到的是一个模糊的、低分辨率的图像副本，而它的高分辨率版本正在被延迟加载
 
-![Blurred placeholder image on Medium website](1492179905medium-blurred.png)
+![Blurred placeholder image on Medium website](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/translate/content/image-lazy-loading/1492179905medium-blurred.png)
 
-![High-res, lazy loaded image on Medium website.](1492179959medium-regular.png)
+![High-res, lazy loaded image on Medium website.](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/translate/content/image-lazy-loading/1492179959medium-regular.png)
 
 高分辨率，懒惰加载图像在媒体网站
 

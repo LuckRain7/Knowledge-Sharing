@@ -21,7 +21,7 @@ The UI component explorer. Develop, document, & test for React, Vue, Angular, Em
 
 stars:4,397 | forks:197 | 2,045 stars this week 
 
-The adaptive interface system  for modern web experiences.
+The adaptive interface system for modern web experiences.
 
 ## 4.  bernaferrari/FigmaToCode
 

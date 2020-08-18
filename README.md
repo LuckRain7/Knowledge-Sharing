@@ -64,6 +64,8 @@
 
 - [正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
 
+- [[新手向] Promise课程笔记整理](https://github.com/LuckRain7/Knowledge-Sharing/blob/master/resource/2020/%5B%E6%96%B0%E6%89%8B%E5%90%91%5D%20Promise%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86.md)
+
 📘 Vue
 
 - [如何在 Vue 中优雅的使用防抖节流](https://mp.weixin.qq.com/s/mFmqyicyfaAOdxmhlPmSRQ)

@@ -149,7 +149,7 @@ Starter files, final projects and FAQ for my Complete JavaScript course
 
 stars:49 | forks:11 | 31 stars today 
 
-Complete Free Coding Bootcamp 2020 MERN Stack (For Beginners)
+这是一个系列视频，我们将使用MERN STACK（MongoDB，Express，React.js和Nodejs）从头开始构建一个全栈应用程序。
 
 ## 20.  kubowania/Tetris-Basic
 

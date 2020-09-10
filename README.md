@@ -64,7 +64,9 @@
 
 - [正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
 
-- [[新手向] Promise课程笔记整理](https://github.com/LuckRain7/Knowledge-Sharing/blob/master/resource/2020/%5B%E6%96%B0%E6%89%8B%E5%90%91%5D%20Promise%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86.md)
+- [[新手向] Promise 课程笔记整理](https://github.com/LuckRain7/Knowledge-Sharing/blob/master/resource/2020/%5B%E6%96%B0%E6%89%8B%E5%90%91%5D%20Promise%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86.md)
+
+- [异步编程面试题解析](https://github.com/LuckRain7/Knowledge-Sharing/blob/master/resource/2020/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%9020200910.md)
 
 📘 Vue
 

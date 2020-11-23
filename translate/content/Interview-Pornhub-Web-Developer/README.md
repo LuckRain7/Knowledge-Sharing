@@ -1,5 +1,7 @@
 # P 站开发人员访谈
 
+![header.png](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/translate/content/Interview-Pornhub-Web-Developer/header.png)
+
 > 最近，我有幸采访到了一位P站的 Web 开发人员，我想了解技术，如何改进 Web API 以及在P站工作的感觉。
 >
 > 无论您对有色内容持有何种立场，都无法否认有色网站行业对推动网络发展具有巨大影响。 从提高浏览器的视频限制到通过 WebSocket 推送广告，使广告拦截器无法检测到它们， 都需时刻地在网络的前沿进行创新。

@@ -1,6 +1,6 @@
 # NPM包分析工具推荐
 
-
+![header](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/resource/2020/1215-npm-analysis-tool-recommendations/header.png)
 
 ## 1. uiwjs / npm-unpkg
 
@@ -12,11 +12,11 @@ GitHub地址：https://github.com/uiwjs/npm-unpkg
 
 网站地址：https://uiwjs.github.io/npm-unpkg/
 
-![npm-unpkg](npm-unpkg.png)
+![npm-unpkg](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/resource/2020/1215-npm-analysis-tool-recommendations/npm-unpkg.png)
 
 **example：vue@2.6.12**
 
-![npm-unpkg-vue](npm-unpkg-vue.png)
+![npm-unpkg-vue](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/resource/2020/1215-npm-analysis-tool-recommendations/npm-unpkg-vue.png)
 
 可以清晰的查看包文件目录及源码文件，解决了在node_modules中找半天找不到包，文件目录拖很长的问题。
 
@@ -30,11 +30,11 @@ GitHub地址：https://github.com/pastelsky/bundlephobia
 
 网站地址：https://bundlephobia.com/
 
-![bundlephobia](bundlephobia.png)
+![bundlephobia](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/resource/2020/1215-npm-analysis-tool-recommendations/bundlephobia.png)
 
 **example：vue@2.6.12**
 
-![bundlephobia-vue](bundlephobia-vue.png)
+![bundlephobia-vue](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/resource/2020/1215-npm-analysis-tool-recommendations/bundlephobia-vue.png)
 
 以 vue@2.6.12 为例，
 

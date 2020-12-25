@@ -43,27 +43,16 @@
 📘 JavaScript
 
 - [防抖、节流](http://rain7.top/frontend/JavaScript.html#_2、防抖和节流)
-
 - [深拷贝和浅拷贝](http://rain7.top/frontend/JavaScript.html#_1、深拷贝和浅拷贝)
-
 - [一道“简单”的 This 题解析](https://mp.weixin.qq.com/s/QLabNBOChsKmrpvEXJrpNg)
-
 - [一道关于 JavaScript 代码执行顺序的面试题解析](https://mp.weixin.qq.com/s/fJO-7OnSE82t6Gqqt8n0Fg)
-
 - [如何在 Array.forEach 中正确使用 async](https://mp.weixin.qq.com/s/39J2KO8h_cBKg3MWB63L7w)
-
 - [如何在 Array.filter 中正确使用 async](https://mp.weixin.qq.com/s/OtFsaLb2a26D0Uz4aFaoAw)
-
 - [如何在 Array.reduce 中正确使用 async](https://mp.weixin.qq.com/s/9wl8-SYspr3s358Tf0CmSg)
-
 - [如何在 Array.map 中正确使用 async](https://mp.weixin.qq.com/s/PdghejWyUjfWLBdOagPkkA)
-
 - [如何在 Array.some 中正确使用 async](https://mp.weixin.qq.com/s/-kBwis0MhRNgVEtDF7wPYA)
-
 - [正确的将 Promise 链重构为 async 函数](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/resource/2020/0604)
-
 - [[新手向] Promise 课程笔记整理](https://github.com/LuckRain7/Knowledge-Sharing/blob/master/resource/2020/%5B%E6%96%B0%E6%89%8B%E5%90%91%5D%20Promise%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E6%95%B4%E7%90%86.md)
-
 - [异步编程面试题解析](https://github.com/LuckRain7/Knowledge-Sharing/blob/master/resource/2020/%E5%BC%82%E6%AD%A5%E7%BC%96%E7%A8%8B%E9%9D%A2%E8%AF%95%E9%A2%98%E8%A7%A3%E6%9E%9020200910.md)
 
 📘 Vue

@@ -1,6 +1,6 @@
 # 文章翻译列表
 
-[[2020-12-30] 五个 JavaScript 小技巧](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/content/Interview-Pornhub-Web-Developer)
+[[2020-12-30] 五个 JavaScript 小技巧](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/content/five-javascript-patterns-i-like)
 
 [[2020-11-23] P 站开发人员访谈](https://github.com/LuckRain7/Knowledge-Sharing/tree/master/translate/content/Interview-Pornhub-Web-Developer)
 

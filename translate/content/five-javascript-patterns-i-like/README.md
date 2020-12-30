@@ -1,5 +1,7 @@
 # 五个 JavaScript 小技巧
 
+![Header](https://raw.githubusercontent.com/LuckRain7/Knowledge-Sharing/master/translate/content/five-javascript-patterns-i-like/header.png)
+
 在这篇文章中，我将介绍一些我在编程时尝试使用的小技巧。这些技巧是我最近在工作中总结的，以及多年来从同事那里偷来的一些小技巧。
 
 以下小技巧没没有特定的顺序。
@@ -23,7 +25,7 @@ function transformData(rawData) {
 }
 ```
 
-我将这种模式称为“early exits”，但也有人将其称为“Bouncer模式”或“guard clauses”。除了命名之外，该模式采用首先检查无效用例并从该函数返回的方法，否则它将继续执行函数的预期用例。
+我将这种模式称为“early exits”，但也有人将其称为“Bouncer 模式”或“guard clauses”。除了命名之外，该模式采用首先检查无效用例并从该函数返回的方法，否则它将继续执行函数的预期用例。
 
 我非常喜欢这个方法的以下几点：
 
@@ -36,7 +38,7 @@ More info:
 
 - [The bouncer pattern by Rik Schennink](http://rikschennink.nl/thoughts/the-bouncer-pattern/)
 
-## 2. 从  Switch 切换到 Object（Switch to object literal）
+## 2. 从 Switch 切换到 Object（Switch to object literal）
 
 ```javascript
 // Switch
@@ -49,7 +51,7 @@ switch (contentType) {
     createType = () => console.log("creating a video...");
     break;
   default:
-    createType = () => console.log('unrecognized content type');
+    createType = () => console.log("unrecognized content type");
 }
 
 createType();
@@ -58,10 +60,10 @@ createType();
 const contentTypes = {
   post: () => console.log("creating a post..."),
   video: () => console.log("creatinga  video..."),
-  default: () => console.log('unrecognized content type')
+  default: () => console.log("unrecognized content type"),
 };
 
-const createType = contentTypes[contentType] || contentTypes['default'];
+const createType = contentTypes[contentType] || contentTypes["default"];
 createType();
 ```
 
@@ -84,15 +86,18 @@ More info:
 
 ```javascript
 const exampleValues = [2, 15, 8, 23, 1, 32];
-const [truthyValues, falseyValues] = exampleValues.reduce((arrays, exampleValue) => {
-  if (exampleValue > 10) {
-    arrays[0].push(exampleValue);
-    return arrays;
-  }
+const [truthyValues, falseyValues] = exampleValues.reduce(
+  (arrays, exampleValue) => {
+    if (exampleValue > 10) {
+      arrays[0].push(exampleValue);
+      return arrays;
+    }
 
-  arrays[1].push(exampleValue);
-  return arrays;
-}, [[], []]);
+    arrays[1].push(exampleValue);
+    return arrays;
+  },
+  [[], []]
+);
 ```
 
 这种小技巧没有什么特别之处，但是我发现自己过滤了一组项目以获取符合特定条件的内容，然后针对不同的条件再次进行此操作。 那意味着要遍历一个数组两次，但是我可以只做一次。
@@ -125,7 +130,7 @@ More info:
 
 - [The art of naming variables by Richard Tan](https://hackernoon.com/the-art-of-naming-variables-52f44de00aad)
 
-##  5. 嵌套三元表达式（Nested ternaries）
+## 5. 嵌套三元表达式（Nested ternaries）
 
 ```javascript
 let result = null;
@@ -139,16 +144,12 @@ if (conditionA) {
   result = "Not A";
 }
 
-const result = !conditionA
-  ? "Not A"
-  : conditionB
-  ? "A & B"
-  : "A";
+const result = !conditionA ? "Not A" : conditionB ? "A & B" : "A";
 ```
 
 我承认，嵌套三元表达式的做法很令人反感。 这似乎是编写条件语句的一种炫技的方法。 在编写业务逻辑时，我认为 if 和 else 更容易读懂，因为它们是真实的单词，但是当这些单词嵌套时，我会开始很难跟上其中的嵌套并梳理清楚逻辑。
 
-我开始学习去使用三元表达式和嵌套三元表达式，发现一眼就能快速了解发生了什么。我认为这种技巧取决于您和您的团队的编程偏好。 
+我开始学习去使用三元表达式和嵌套三元表达式，发现一眼就能快速了解发生了什么。我认为这种技巧取决于您和您的团队的编程偏好。
 
 我在代码中使用的很好，嵌套的三元表达式的确可以提升自己的代码。
 
@@ -157,8 +158,6 @@ More info:
 - [Nested Ternaries are Great by Eric Elliot](https://medium.com/javascript-scene/nested-ternaries-are-great-361bddd0f340)
 
 ---
-
-
 
 原文作者：[John Stewart](https://www.johnstewart.dev/)
 
